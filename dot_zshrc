@@ -12,3 +12,4 @@ PATH="${PATH}:${HOME}/.volta/bin"
 EDITOR=nano
 
 GITHUB_USERNAME=nicolaevladescu
+
