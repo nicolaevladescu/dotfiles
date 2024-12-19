@@ -1,0 +1,63 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "indent_guides": {
+        "show": "always",
+        "enabled": true,
+        "line_width": 1,
+        "active_line_width": 1,
+        "coloring": "indent_aware",
+        "background_coloring": "disabled"
+    },
+    "assistant": {
+        "default_model": {
+            "provider": "ollama",
+            "model": "deepseek-coder-v2:latest"
+        },
+        "version": "2"
+    },
+    "theme": {
+        "mode": "system",
+        "dark": "Ayu Dark",
+        "light": "Ayu Light"
+    },
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "tab_size": 4,
+    "preferred_line_length": 64,
+    "soft_wrap": "editor_width",
+    "format_on_save": "on",
+    "vim_mode": false,
+    "projects_online_by_default": true,
+    "remove_trailing_whitespace_on_save": true,
+    "autosave": "off",
+    "ui_font_family": "Roboto Mono",
+    "ui_font_size": 15,
+    "ui_font_features": {
+        "calt": false
+    },
+    "buffer_font_family": "Roboto Mono",
+    "buffer_font_size": 15,
+    "buffer_font_features": {
+        "calt": false
+    },
+    "languages": {
+        "Python": {
+            "tab_size": 4
+        },
+        "JSON": {
+            "tab_size": 2
+        },
+        "YAML": {
+            "tab_size": 2
+        }
+    }
+}
