@@ -2,9 +2,6 @@
 	name = Nicolae Vlădescu
 	email = nicolaevladescu@users.noreply.github.com
 	signingkey = D2815568
-
-#[gpg]
-#	program = /usr/local/bin/krgpg
 [commit]
 	gpgSign = true
 [tag]
